@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+name: ANSYS GENERAL (APDL)
+scope: prep7.apdl
+hidden: true
+
+contexts:
+  main:
+    - match: (?:^)\s*(?i)(abs)(?:\s*,\s*(\w+))(?:\s*,\s*(\w+))(?:\s*,\s*)(?:\s*,\s*)(?:\s*,\s*(\w+))(?:\s*,\s*)(?:\s*,\s*)(?:\s*,\s*([^\d\s]+|[-+]?[0-9]*\.?[0-9]*))
+      comments: ""
+      captures:
+        1: variable.language.apdl
+        2: keyword.operator.apdl
+        3: keyword.operator.apdl
+        4: keyword.operator.apdl
+        5: keyword.operator.apdl

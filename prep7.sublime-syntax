@@ -1,0 +1,65 @@
+%YAML 1.2
+---
+name: ANSYS PREP7 (APDL)
+scope: prep7.apdl
+hidden: true
+
+contexts:
+  main:
+    - match: (?:^)\s*(?i)(a)(?:\s*,\s*(\w+))(?:\s*,\s*(\w+))(?:\s*,\s*(\w+))(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?(?:\s*,\s*(\w+))?
+      comments: "At least 3 keypoints must be entered"
+      captures:
+        1: variable.language.apdl
+        2: keyword.operator.apdl
+        3: keyword.operator.apdl
+        4: keyword.operator.apdl
+        5: keyword.operator.apdl
+        6: keyword.operator.apdl
+        7: keyword.operator.apdl
+        8: keyword.operator.apdl
+        9: keyword.operator.apdl
+        10: keyword.operator.apdl
+        11: keyword.operator.apdl
+        12: keyword.operator.apdl
+        13: keyword.operator.apdl
+        14: keyword.operator.apdl
+        15: keyword.operator.apdl
+        16: keyword.operator.apdl
+        17: keyword.operator.apdl
+        18: keyword.operator.apdl
+        19: keyword.operator.apdl
+
+    - match: (?:^)\s*(?i)(catt)(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?
+      comments: "any/all options are optional"
+      captures:
+        1: variable.language.apdl
+        2: keyword.operator.apdl
+        3: keyword.operator.apdl
+        4: keyword.operator.apdl
+        5: keyword.operator.apdl
+        6: keyword.operator.apdl
+
+    - match: (?:^)\s*(?i)(patt)(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?(?:\s*,\s*(\w*))?
+      comments: ""
+      captures:
+        1: variable.language.apdl
+        2: keyword.operator.apdl
+        3: keyword.operator.apdl
+        4: keyword.operator.apdl
+        5: keyword.operator.apdl
+        6: keyword.operator.apdl
+
+    - match: (?:^)\s*(?i)(prep7)
+      scope: invalid.illegal.stray-semi-colon
+
+    - match: (?:^)\s*(?i)(finish)
+      comments: ""
+      captures:
+        1: variable.language.apdl
+      pop: true
+
+    - match: (?:^)\s*(?i)(post1)
+      comments: ""
+      captures:
+        1: variable.language.apdl
+      pop: true

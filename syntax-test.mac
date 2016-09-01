@@ -1,0 +1,86 @@
+
+*if,ASDF,eq,asdf,then
+	*msg,eq,asdfasdf,asdf,asd,fasdfasdfoijasldkf,asdf,asdf,asdf,34asdf,
+asdfas
+
+df
+
+*vwrite,asdf
+(asdf)
+
+	aatt,asdf,asdf,asdf,Sasdf,aadsf
+
+	a,   A,  A   ,a!A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+	a,%S4S4S4%,A,A,A
+
+*endif
+
+*abbr,ne,asdf,adsf
+
+beam4
+
+arg
+
+
+*if,44.10e012342e214e213e132,ne,'4',or,'4',ne,'7',then
+
+*endif
+a,s,s,s,s
+	~ugin
+
+	*abbr,asdf,asdf,adsf
+	*abbr,asdf,asdf,adsf
+	 finish
+
+*if,'1',ne,'4',or,'4',ne,'7',then
+
+/prep7
+asdfasdfasldfkaasdfasdfasdfasldfjalsdifjialsdfjkasdjflaksdjflkaasd
+asdfasdf
+asdf
+aadd,ASDF,2,3,4,5,6,7,8,9,1
+aatt,,4,4,5,6,ASDF,W2,3,5
+abextract,2,ASDF,,ASDF,ASDF
+
+
+aadd,ASDF,2,3,4,5,6,7,8,9,1
+abextract,2,ASDF,,ASDF,ASDF
+*abbr,asdf,asdfasdfasldfkaasdfasdfasdfasldfjalsdifjialsdfjkasdjflaksdjflka,sjdlfjalsdifjasdilfjlasidf
+
+*get,blah,active,
+*get,blah,active,
+*get,blah,active,
+*abbr,asdf,asdfasdfasldfkaasdfasdfasdfasldfjalsdifjialsdfjkasdjflaksdjflka,sjdlfjalsdifjasdilfjlasidf
+*get,blah,active,blah,asdf,asdf
+*get,blah,active,
+*get,blah,active,
+*get,blah,active,
+*abbr,asdf,asdfasdfasldfkaasdfasdfasdfasldfjalsdifjialsdfjkasdjflaksdjflka,sjdlfjalsdifjasdilfjlasidf
+*get,blah,active
+*get,blah,active
+*get,blah,active
+
+
+*if,'1',ne,'4',or,'4',ne,'7',then
+	! asdf
+	asdf
+	! asd
+
+	abbres,all,asdf,asdf
+	abbres,,,out
+	abs,ir,ia,,,name,,,.0
+
+	accat,1
+
+*endif
+
+*do,I,a,b,c
+	abs,ir,ia,,,name,,,0
+	accoption,1,0
+	acel,,,c
+*enddo
+
+123ASDF = 45asdf
+
+
+abs,ir,ia,,,name,,,asdfasdf
